@@ -55,7 +55,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Kontak</a>
           </li>
-        
         </ul>
     
       </div>
