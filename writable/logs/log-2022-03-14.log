@@ -1,0 +1,640 @@
+CRITICAL - 2022-03-14 02:15:26 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:15:29 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:15:30 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:15:31 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:16:50 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:17:44 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:17:45 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:17:46 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:17:46 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:18:50 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:18:51 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:18:51 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:41 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:42 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:43 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:43 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:43 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:26:43 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:48 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:49 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:49 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:49 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:50 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:30:50 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:31:53 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:31:56 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:31:57 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:31:58 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:31:59 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:36:15 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 02:42:14 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:43:28 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:43:29 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:43:29 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:43:29 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:15 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:16 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:16 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:17 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:48 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:48 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:48 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:44:49 --> syntax error, unexpected string content "product/index);"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProductControll...')
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('ProductControll...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 02:57:07 --> Undefined variable $test
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(14): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 02:57:08 --> Undefined variable $test
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(14): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 02:58:35 --> Undefined variable $data
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(14): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:04:42 --> Undefined constant "print_r"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(14): view('product/index', Array)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-14 03:04:43 --> Undefined constant "print_r"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(14): view('product/index', Array)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-14 03:24:44 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:25:07 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:25:08 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:25:20 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:25:22 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:25:45 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:25:46 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:25:46 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:26:32 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:26:33 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:26:33 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-14 03:27:38 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:27:39 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:27:39 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:29:13 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:33:20 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:33:20 --> Undefined variable $product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(18): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:38:45 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:38:46 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:39:47 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-14 03:40:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(23): view('product/index', Array)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

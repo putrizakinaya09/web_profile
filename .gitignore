@@ -1,0 +1,8 @@
+vendor
+writable/debugbar/*
+writable/session/*
+writable/log/*
+
+writable/debugbar
+writable/session
+writable/log

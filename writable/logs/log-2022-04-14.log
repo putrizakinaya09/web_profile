@@ -1,0 +1,184 @@
+CRITICAL - 2022-04-14 04:51:22 --> Undefined variable $products
+#0 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\matakuliah\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 23)
+#1 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('matakuliah/inde...', Array, true)
+#4 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\MatakuliahController.php(22): view('matakuliah/inde...', Array)
+#5 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->index()
+#6 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#7 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-14 05:11:51 --> Undefined property: stdClass::$jadwal_mulai
+#0 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\matakuliah\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp2\\htdoc...', 27)
+#1 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('matakuliah/inde...', Array, true)
+#4 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\MatakuliahController.php(22): view('matakuliah/inde...', Array)
+#5 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->index()
+#6 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#7 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-04-14 09:40:29 --> Error connecting to the database: Unknown database 'presensi'
+CRITICAL - 2022-04-14 09:40:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'presensi'
+#0 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kelompok2ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kelompok2ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kelompok2ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\kelompok2ci\app\Controllers\ProductController.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-14 09:54:38 --> Table 'presensi.products' doesn't exist
+CRITICAL - 2022-04-14 09:54:38 --> Table 'presensi.products' doesn't exist
+#0 C:\xampp\htdocs\kelompok2ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kelompok2ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kelompok2ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kelompok2ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kelompok2ci\app\Controllers\ProductController.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#8 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#9 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-04-14 09:54:59 --> Table 'presensi.matakuliah' doesn't exist
+CRITICAL - 2022-04-14 09:54:59 --> Table 'presensi.matakuliah' doesn't exist
+#0 C:\xampp\htdocs\kelompok2ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kelompok2ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kelompok2ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kelompok2ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->index()
+#8 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#9 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-14 10:10:36 --> Undefined property: stdClass::$jadwal_mulai
+#0 C:\xampp\htdocs\kelompok2ci\app\Views\matakuliah\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\kelompok2ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kelompok2ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kelompok2ci\system\Common.php(1089): CodeIgniter\View\View->render('matakuliah/inde...', Array, true)
+#4 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(22): view('matakuliah/inde...', Array)
+#5 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->index()
+#6 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-14 10:49:08 --> Undefined property: App\Controllers\MatakuliahController::$productModel
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->edit('2')
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 10:50:13 --> Undefined property: App\Controllers\MatakuliahController::$productModel
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->delete('2')
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 11:01:22 --> Undefined property: App\Controllers\MatakuliahController::$productModel
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->edit('1')
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 12:34:11 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kelompok2ci\app\Views\welcome_message.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kelompok2ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kelompok2ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kelompok2ci\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(9): view('welcome_message')
+#5 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-14 12:56:39 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\kelompok2ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kelompok2ci\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(13): view('welcome_message', Array)
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-14 13:18:44 --> Undefined property: App\Controllers\Home::$mahasiswaModel
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->store()
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:36:10 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->store()
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-14 13:57:18 --> Undefined property: App\Controllers\Home::$mahasiwaModel
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->store()
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:59:24 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->store()
+#2 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-14 15:19:46 --> Unknown column 'mahasiswa_id' in 'where clause'
+CRITICAL - 2022-04-14 15:19:46 --> Unknown column 'mahasiswa_id' in 'where clause'
+#0 C:\xampp\htdocs\kelompok2ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kelompok2ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kelompok2ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kelompok2ci\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kelompok2ci\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\kelompok2ci\app\Controllers\Home.php(58): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\Home->store()
+#8 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-14 15:57:35 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\kelompok2ci\app\Views\matakuliah\index.php(26): date('l', '2022-04-14')
+#1 C:\xampp\htdocs\kelompok2ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kelompok2ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kelompok2ci\system\Common.php(1089): CodeIgniter\View\View->render('matakuliah/inde...', Array, true)
+#4 C:\xampp\htdocs\kelompok2ci\app\Controllers\MatakuliahController.php(22): view('matakuliah/inde...', Array)
+#5 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(825): App\Controllers\MatakuliahController->index()
+#6 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahController))
+#7 C:\xampp\htdocs\kelompok2ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kelompok2ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kelompok2ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

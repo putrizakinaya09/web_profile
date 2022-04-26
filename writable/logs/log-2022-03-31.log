@@ -1,0 +1,102 @@
+CRITICAL - 2022-03-31 07:07:58 --> Undefined variable $validation
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/edit', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(69): view('product/edit', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->edit('30')
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-31 07:57:29 --> Undefined variable $id_product
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Views\product\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('product/edit', Array, true)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(71): view('product/edit', Array)
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->edit('30')
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-31 10:34:11 --> Error connecting to the database: Unknown database 'posrabu'
+CRITICAL - 2022-03-31 10:34:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'posrabu'
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->index()
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-31 10:55:37 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-03-31 10:55:37 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->store()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-31 11:01:08 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-03-31 11:01:08 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->store()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-31 11:03:43 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-03-31 11:03:43 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->store()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-31 23:45:18 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-03-31 23:45:18 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\app\Controllers\ProductController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\ProductController->store()
+#9 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PertemuanCI\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
