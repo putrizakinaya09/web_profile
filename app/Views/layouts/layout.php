@@ -41,29 +41,29 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a id="home" class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
               <div class="dropdown-menu">
-                <a href="<?= base_url()?>/sambutan" class="dropdown-item">Sabutan KA.Prodi</a>
-                <a href="<?= base_url()?>/visi-misi" class="dropdown-item">Visi dan Misi</a>
-                <a href="<?= base_url()?>/struktur-organisasi" class="dropdown-item">Struktur Organisasi</a>
+                <a id="sambutan" href="<?= base_url() ?>/sambutan" class="dropdown-item">Sabutan KA.Prodi</a>
+                <a id="visi-misi" href="<?= base_url() ?>/visi-misi" class="dropdown-item">Visi dan Misi</a>
+                <a id="struktur-organisasi" href="<?= base_url() ?>/struktur-organisasi" class="dropdown-item">Struktur Organisasi</a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
               <div class="dropdown-menu">
-                <a href="<?= base_url()?>/pengumuman" class="dropdown-item">Pengumuman</a>
-                <a href="#" class="dropdown-item">Berita</a>
-                <a href="#" class="dropdown-item">Gallery</a>
+                <a id="pengumuman" href="<?= base_url() ?>/pengumuman" class="dropdown-item">Pengumuman</a>
+                <a id="berita" href="#" class="dropdown-item">Berita</a>
+                <a id="gallery" href="#" class="dropdown-item">Gallery</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url()?>/kurikulum">Kurikulum</a>
+              <a id="kurikulum" class="nav-link" href="<?= base_url() ?>/kurikulum">Kurikulum</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url()?>/kontak">Kontak</a>
+              <a id="kontak" class="nav-link" href="<?= base_url() ?>/kontak">Kontak</a>
             </li>
 
           </ul>
@@ -85,6 +85,16 @@
     </footer>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script>
+    const last_segment = window.location.pathname.split('/').pop();
+    if (last_segment !== '') {
+      $(`#${last_segment}`).parent().siblings().addClass('active');
+      $(`#${last_segment}`).addClass('active');
+    } else {
+      $(`#home`).addClass('active');
+    }
+  </script>
 </body>
 
 </html>

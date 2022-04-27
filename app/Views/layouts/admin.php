@@ -32,19 +32,8 @@
 
 <body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
-
-    <!-- include summernote css/js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-bs5.min.js" integrity="sha512-6F1RVfnxCprKJmfulcxxym1Dar5FsT/V2jiEUvABiaEiFWoQ8yHvqRM/Slf0qJKiwin6IDQucjXuolCfCKnaJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <?php if ($uri->getSegment(2) == 'dashboard') : ?>
-        <script src="<?= base_url() ?>/assets/js/dashboard.js"></script>
-    <?php endif ?>
-
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Web Company</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">STMIK Mardira</a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,56 +51,62 @@
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= base_url() ?>/dashboard">
+                            <a id="dashboard" class="nav-link" aria-current="page" href="<?= base_url() ?>/dashboard">
                                 <span data-feather="home"></span>
                                 Dashboard
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/Sambutan">
+                            <a class="nav-link" aria-current="page" href="<?= base_url() ?>/page-type">
+                                <span data-feather="settings"></span>
+                                Pengaturan Umum Halaman
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="sambutan" class="nav-link" href="<?= base_url() ?>/page/sambutan">
                                 <span data-feather="file"></span>
                                 Sambutan KA. Prodi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/visi-misi">
-                                <span data-feather="shopping-cart"></span>
+                            <a id="visi-misi" class="nav-link" href="<?= base_url() ?>/page/visi-misi">
+                                <span data-feather="check-square"></span>
                                 Visi & Misi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/struktur-organisasi">
+                            <a id="struktur-organisasi" class="nav-link" href="<?= base_url() ?>/page/struktur-organisasi">
                                 <span data-feather="users"></span>
                                 Struktur Organisasi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/pengumuman">
-                                <span data-feather="bar-chart-2"></span>
+                            <a id="pengumuman" class="nav-link" href="<?= base_url() ?>/page/pengumuman">
+                                <span data-feather="mic"></span>
                                 Pengumuman
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <span data-feather="layers"></span>
+                            <a id="berita" class="nav-link" href="#">
+                                <span data-feather="tv"></span>
                                 Berita
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <span data-feather="layers"></span>
+                                <span data-feather="image"></span>
                                 Galeri Kegiatan
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/kurikulum">
-                                <span data-feather="layers"></span>
+                            <a id="kurikulum" class="nav-link" href="<?= base_url() ?>/page/kurikulum">
+                                <span data-feather="book"></span>
                                 Kurikulum
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url() ?>/page/kontak">
-                                <span data-feather="layers"></span>
+                            <a id="kontak" class="nav-link" href="<?= base_url() ?>/page/kontak">
+                                <span data-feather="phone-call"></span>
                                 Kontak
                             </a>
                         </li>
@@ -137,6 +132,25 @@
             </main>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+
+    <!-- include summernote css/js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-bs5.min.js" integrity="sha512-6F1RVfnxCprKJmfulcxxym1Dar5FsT/V2jiEUvABiaEiFWoQ8yHvqRM/Slf0qJKiwin6IDQucjXuolCfCKnaJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <?php if ($uri->getSegment(2) == 'dashboard') : ?>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+        <script src="<?= base_url() ?>/assets/js/dashboard.js"></script>
+    <?php endif ?>
+
+    <script>
+        feather.replace({
+            'aria-hidden': 'true'
+        })
+        const last_segment = window.location.pathname.split('/').pop();
+        $(`#${last_segment}`).addClass('active');
+    </script>
 </body>
 
 </html>
