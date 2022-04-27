@@ -56,25 +56,25 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= base_url() ?>/page/Sambutan">
                                 <span data-feather="file"></span>
                                 Sambutan KA. Prodi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= base_url() ?>/page/visi-misi">
                                 <span data-feather="shopping-cart"></span>
                                 Visi & Misi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= base_url() ?>/page/struktur-organisasi">
                                 <span data-feather="users"></span>
                                 Struktur Organisasi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= base_url() ?>/page/pengumuman">
                                 <span data-feather="bar-chart-2"></span>
                                 Pengumuman
                             </a>
@@ -92,7 +92,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a class="nav-link" href="<?= base_url() ?>/page/kurikulum">
                                 <span data-feather="layers"></span>
                                 Kurikulum
                             </a>
