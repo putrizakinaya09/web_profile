@@ -28,12 +28,6 @@ class Home extends BaseController
         session();
         $data = [
             'validation'    => \config\Services::validation(),
-            'matakuliah'  => $this->matakuliahModel->asObject()->findAll(),
-            'hari_ini'  => $this->getHari(date('l', strtotime(date('Y-m-d')))),
-            'presensi'  => $this->presensiModel
-                ->join('mahasiswa', 'mahasiswa.id = presensi.id_mahasiswa')
-                ->join('matakuliah', 'matakuliah.id = presensi.id_matakuliah')
-                ->where('DATE(tanggal_presensi)', date('Y-m-d'))->asObject()->findAll(),
         ];
         return view('home', $data);
     }

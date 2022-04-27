@@ -47,7 +47,12 @@ $routes->post('/mahasiswa/store', 'MahasiswaController::store');
 $routes->post('/mahasiswa/update', 'MahasiswaController::update');
 
 $routes->get('/dashboard', 'DashboardController::index');
+
 $routes->get('/login', 'AuthController::index');
+$routes->get('/sign-up', 'AuthController::signup');
+$routes->get('/logout', 'AuthController::logout');
+$routes->post('/auth/login', 'AuthController::login');
+$routes->post('/auth/store', 'AuthController::store');
 
 /*
  * --------------------------------------------------------------------
