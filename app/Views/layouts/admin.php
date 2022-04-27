@@ -59,7 +59,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="<?= base_url() ?>/page-type">
                                 <span data-feather="settings"></span>
-                                Pengaturan Umum Halaman
+                                Pengaturan Halaman
                             </a>
                         </li>
                         <li class="nav-item">

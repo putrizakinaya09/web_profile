@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a id="home" class="nav-link" aria-current="page" href="#">Home</a>
+              <a id="home" class="nav-link" aria-current="page" href="<?= base_url()?>">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
@@ -55,8 +55,8 @@
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
               <div class="dropdown-menu">
                 <a id="pengumuman" href="<?= base_url() ?>/pengumuman" class="dropdown-item">Pengumuman</a>
-                <a id="berita" href="#" class="dropdown-item">Berita</a>
-                <a id="gallery" href="#" class="dropdown-item">Gallery</a>
+                <a id="berita" href="<?= base_url() ?>/berita" class="dropdown-item">Berita</a>
+                <a id="gallery" href="<?= base_url() ?>/gallery" class="dropdown-item">Gallery</a>
               </div>
             </li>
             <li class="nav-item">

@@ -42,7 +42,31 @@ $routes->post('/auth/store', 'AuthController::store');
 $routes->get('/page/(:any)', 'PageController::index/$1', ['filter' => 'auth']);
 $routes->post('/page/(:any)/store', 'PageController::store/$1', ['filter' => 'auth']);
 
+$routes->get('/page-types', 'PageTypeController::index', ['filter' => 'auth']);
+$routes->get('/page-types/create', 'PageTypeController::create', ['filter' => 'auth']);
+$routes->get('/page-types/(:num)/delete', 'PageTypeController::delete/$1', ['filter' => 'auth']);
+$routes->get('/page-types/(:num)/edit', 'PageTypeController::edit/$1', ['filter' => 'auth']);
+$routes->post('/page-types/store', 'PageTypeController::store', ['filter' => 'auth']);
+$routes->post('/page-types/update', 'PageTypeController::update', ['filter' => 'auth']);
+
+$routes->get('/article-categories', 'ArticleCategoriesController::index', ['filter' => 'auth']);
+$routes->get('/article-categories/create', 'ArticleCategoriesController::create', ['filter' => 'auth']);
+$routes->get('/article-categories/(:num)/delete', 'ArticleCategoriesController::delete/$1', ['filter' => 'auth']);
+$routes->get('/article-categories/(:num)/edit', 'ArticleCategoriesController::edit/$1', ['filter' => 'auth']);
+$routes->post('/article-categories/store', 'ArticleCategoriesController::store', ['filter' => 'auth']);
+$routes->post('/article-categories/update', 'ArticleCategoriesController::update', ['filter' => 'auth']);
+
+$routes->get('/articles', 'ArticleController::index', ['filter' => 'auth']);
+$routes->get('/articles/create', 'ArticleController::create', ['filter' => 'auth']);
+$routes->get('/articles/(:num)/delete', 'ArticleController::delete/$1', ['filter' => 'auth']);
+$routes->get('/articles/(:num)/edit', 'ArticleController::edit/$1', ['filter' => 'auth']);
+$routes->post('/articles/store', 'ArticleController::store', ['filter' => 'auth']);
+$routes->post('/articles/update', 'ArticleController::update', ['filter' => 'auth']);
+
+$routes->get('/berita', 'BeritaController::index');
+$routes->get('/berita/(:any)', 'BeritaController::detail/$1');
 $routes->get('/(:any)', 'Home::index/$1');
+
 
 /*
  * --------------------------------------------------------------------
