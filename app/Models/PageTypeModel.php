@@ -23,4 +23,9 @@ class PageTypeModel extends Model
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 
+    public function updateData($id, $data)
+    {
+        $this->db->table($this->table)->where('id', $id)->update($data);
+    }
+
 }

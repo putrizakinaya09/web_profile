@@ -16,76 +16,93 @@ class PageTypeController extends BaseController
 
     public function index()
     {
+        $uri = current_url(true);
+        $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
-            'mahasiswa'  => $this->pageTypeModel->asObject()->findAll()
+            'uri'           => $uri,
+            'title'         => 'Pengaturan Halaman',
+            'pageTypes'     => $this->pageTypeModel->asObject()->findAll()
         ];
-        return view('mahasiswa/index', $data);
+        return view('page-types/index', $data);
     }
 
     public function create()
     {
         session();
+        $uri = current_url(true);
+        $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
+            'uri'           => $uri,
+            'title'         => 'Pengaturan Halaman',
             'validation'    => \config\Services::validation()
         ];
-        return view('mahasiswa/create', $data);
+        return view('page-types/create', $data);
     }
 
     public function delete($id)
     {
         $this->pageTypeModel->where('id', $id)->delete();
-        return redirect()->to('/mahasiswa');
+        return redirect()->to('/page-types');
     }
 
     public function store()
     {
         if (!$this->validate([
-            'nim'   => 'required',
-            'nama_mahasiswa'   => 'required'
+            'name'   => 'required',
         ])) {
             $validation = \config\Services::validation();
-            return redirect()->to('/mahasiswa/create')->withInput()->with('validation', $validation);
+            return redirect()->to('/page-types/create')->withInput()->with('validation', $validation);
         }
-
+        $name = $this->request->getVar('name');
+        $slug = $this->request->getVar('slug');
+        if (empty($slug)) {
+            $slug = preg_replace('/\s+/', '-', trim(strtolower($name)));
+        }
         $data = [
-            'nim'   => $this->request->getVar('nim'),
-            'nama_mahasiswa'   => $this->request->getVar('nama_mahasiswa'),
+            'name'   => $name,
+            'slug'   => $slug,
         ];
         $this->pageTypeModel->insert($data);
-        return redirect()->to('/mahasiswa')->with('success', "Data berhasil ditambahkan");
+        return redirect()->to('/page-types')->with('success', "Data berhasil ditambahkan");
     }
 
 
     public function edit($id)
     {
         session();
-        $mahasiswa = $this->pageTypeModel->where('id', $id)->asObject()->first();
+        $pageTypes = $this->pageTypeModel->where('id', $id)->asObject()->first();
+        $uri = current_url(true);
+        $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
-            'mahasiswa'       => $mahasiswa,
+            'uri'           => $uri,
+            'pageTypes'     => $pageTypes,
+            'title'         => 'Pengaturan Halaman',
             'validation'    => \config\Services::validation()
         ];
-        return view('mahasiswa/edit', $data);
+        return view('page-types/edit', $data);
     }
 
 
     public function update()
     {
         $id = $this->request->getVar('id');
-
-        $data = [
-            'nim'   => $this->request->getVar('nim'),
-            'nama_mahasiswa'   => $this->request->getVar('nama_mahasiswa'),
-        ];
-
         if (!$this->validate([
-            'nim'   => 'required',
-            'nama_mahasiswa'   => 'required'
+            'name'   => 'required',
         ])) {
             $validation = \config\Services::validation();
-            return redirect()->to('/mahasiswa/' . $id . '/edit')->withInput()->with('validation', $validation);
+            return redirect()->to('/page-types/' . $id . '/edit')->withInput()->with('validation', $validation);
         }
 
+        $name = $this->request->getVar('name');
+        $slug = $this->request->getVar('slug');
+        if (empty($slug)) {
+            $slug = preg_replace('/\s+/', '-', trim(strtolower($name)));
+        }
+        $data = [
+            'name'   => $name,
+            'slug'   => $slug,
+        ];
         $this->pageTypeModel->updateData($id, $data);
-        return redirect()->to('/mahasiswa')->with('success', "Data berhasil dirubah");
+        return redirect()->to('/page-types')->with('success', "Data berhasil dirubah");
     }
 }
