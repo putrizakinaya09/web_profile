@@ -21,10 +21,16 @@ class PageController extends BaseController
     {
         session();
         $pageType = $this->pageTypeModel->where('slug', $slug)->asObject()->first();
+        if (!empty($pageType)) {
+            $page = $this->pageModel->where('page_type_id', $pageType->id)->asObject()->first();
+        }
+        $uri = current_url(true);
+        $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
+            'uri'    => $uri,
             'validation'    => \config\Services::validation(),
             'pageType'  => $pageType,
-            'page'  => $this->pageModel->where('page_type_id', $pageType->id)->asObject()->first(),
+            'page'  => $page ?? [],
         ];
         return view('pages/create', $data);
     }

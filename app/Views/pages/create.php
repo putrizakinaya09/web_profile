@@ -20,7 +20,7 @@
                     </div>
                     <div class="form-group">
                         <label form="content">Content</label>
-                        <textarea class="form-control <?= ($validation->hasError('content')) ? 'is-invalid' : '' ?>"  name="content" id="content" cols="30" rows="10" placeholder="input content"><?= $page->content ?? '' ?></textarea>
+                        <textarea class="form-control <?= ($validation->hasError('content')) ? 'is-invalid' : '' ?>"  name="content" id="content" placeholder="input content"><?= $page->content ?? '' ?></textarea>
                         <div class="invalid-feedback">
                             <?= $validation->getError('content') ?>
                         </div>
@@ -31,5 +31,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#content').summernote({
+            tabsize: 2,
+            height: 500
+        });
+    });
+</script>
 
 <?= $this->endSection() ?>
