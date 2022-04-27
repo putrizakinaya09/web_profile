@@ -1,8 +1,8 @@
 vendor
 writable/debugbar/*
 writable/session/*
-writable/log/*
+writable/logs/*
 
 writable/debugbar
 writable/session
-writable/log
+writable/logs
