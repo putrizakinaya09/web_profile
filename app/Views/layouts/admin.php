@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-bs5.min.css" integrity="sha512-ngQ4IGzHQ3s/Hh8kMyG4FC74wzitukRMIcTOoKT3EyzFZCILOPF0twiXOQn75eDINUfKBYmzYn2AA8DkAk8veQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Dashboard</title>
+    <title><?= $title ?? 'STMIK Mardina' ?></title>
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -37,7 +37,6 @@
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
                 <a class="nav-link px-3" href="<?= base_url() ?>/logout">Sign out</a>
@@ -57,11 +56,25 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a id="article-categories" class="nav-link" href="<?= base_url() ?>/article-categories">
+                                <span data-feather="tag"></span>
+                                Article / Berita Category
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="articles" class="nav-link" href="<?= base_url() ?>/articles">
+                                <span data-feather="book-open"></span>
+                                Article / Berita
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a id="page-types" class="nav-link" aria-current="page" href="<?= base_url() ?>/page-types">
                                 <span data-feather="settings"></span>
                                 Pengaturan Halaman
                             </a>
                         </li>
+                        <hr />
+                        <strong class="mb-2">&nbsp; Halaman</strong>
                         <li class="nav-item">
                             <a id="sambutan" class="nav-link" href="<?= base_url() ?>/page/sambutan">
                                 <span data-feather="file"></span>
@@ -84,12 +97,6 @@
                             <a id="pengumuman" class="nav-link" href="<?= base_url() ?>/page/pengumuman">
                                 <span data-feather="mic"></span>
                                 Pengumuman
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="berita" class="nav-link" href="#">
-                                <span data-feather="tv"></span>
-                                Berita
                             </a>
                         </li>
                         <li class="nav-item">
