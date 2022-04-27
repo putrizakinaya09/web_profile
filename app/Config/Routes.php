@@ -46,6 +46,7 @@ $routes->get('/mahasiswa/(:num)/edit', 'MahasiswaController::edit/$1');
 $routes->post('/mahasiswa/store', 'MahasiswaController::store');
 $routes->post('/mahasiswa/update', 'MahasiswaController::update');
 
+$routes->get('/dashboard', 'DashboardController::index');
 
 /*
  * --------------------------------------------------------------------

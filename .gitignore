@@ -6,3 +6,5 @@ writable/logs/*
 writable/debugbar
 writable/session
 writable/logs
+
+.DS_Store
