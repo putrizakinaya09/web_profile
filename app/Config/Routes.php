@@ -54,6 +54,9 @@ $routes->get('/logout', 'AuthController::logout');
 $routes->post('/auth/login', 'AuthController::login');
 $routes->post('/auth/store', 'AuthController::store');
 
+$routes->get('/page/(:any)', 'PageController::index/$1', ['filter' => 'auth']);
+$routes->post('/page/(:any)/store', 'PageController::store/$1', ['filter' => 'auth']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
