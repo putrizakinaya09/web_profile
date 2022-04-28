@@ -8,14 +8,21 @@
                 <div class="col-md-6">
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            <div style="display: inline-block;">
+                                <?php if ($value['categories']) :  ?>
+                                    <?php foreach ($value['categories'] as $category) : ?>
+                                        <strong class="d-inline-block mb-2 text-primary"><?= $category->name ?></strong>, 
+                                    <?php endforeach  ?>
+                                <?php endif  ?>
+                            </div>
+
                             <h3 class="mb-0"><?= $value['title'] ?? '' ?></h3>
                             <div class="mb-1 text-muted"><?= $value['date_ago'] ?? '' ?></div>
                             <p class="card-text mb-auto"><?= $value['short_content'] ?? '' ?></p>
-                            <a href="<?= base_url()?>/berita/<?= $value['slug'] ?? '' ?>" class="stretched-link">Continue reading</a>
+                            <a href="<?= base_url() ?>/berita/<?= $value['slug'] ?? '' ?>" class="stretched-link">Continue reading</a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <?= !empty($value['images']) ? '<img style="max-width:350px" class="img-thumbnail" src="/assets/images/'.$value["images"].'">' : '' ?>
+                            <?= !empty($value['images']) ? '<img style="max-width:350px" class="img-thumbnail" src="/assets/images/' . $value["images"] . '">' : '' ?>
                         </div>
                     </div>
                 </div>
