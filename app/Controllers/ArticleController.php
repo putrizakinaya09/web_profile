@@ -3,27 +3,58 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\PageTypeModel;
+use App\Models\ArticleCategoryModel;
+use App\Models\ArticleCategoryRelationModel;
+use App\Models\ArticleModel;
 use CodeIgniter\Commands\Utilities\Publish;
 
 class ArticleController extends BaseController
 {
-    public $pageTypeModel;
+    public $articleModel;
+
+    public $articleCategoriesModel;
+
+    public $articleCategoryRelationModel;
+
     public function __construct()
     {
-        $this->pageTypeModel = new PageTypeModel();
+        $this->articleModel = new ArticleModel();
+        $this->articleCategoriesModel = new ArticleCategoryModel();
+        $this->articleCategoryRelationModel = new ArticleCategoryRelationModel();
     }
 
     public function index()
     {
         $uri = current_url(true);
         $uri = new \CodeIgniter\HTTP\URI($uri);
+        $articles = $this->articleModel->asObject()->findAll();
+        $datas = [];
+        foreach ($articles as $key => $value) {
+            $datas[$key]['id'] = $value->id;
+            $datas[$key]['title'] = $value->title;
+            $datas[$key]['content'] = $value->content;
+            $datas[$key]['status'] = $value->status == 1 ? 'Publish' : 'Draft';
+            $datas[$key]['slug'] = $value->slug;
+            $datas[$key]['categories'] = $this->getDataCategories($value->id);
+        }
+
         $data = [
             'uri'           => $uri,
-            'title'         => 'Pengaturan Halaman',
-            'pageTypes'     => $this->pageTypeModel->asObject()->findAll()
+            'title'         => 'Article / Berita',
+            'articles'      => (object)$datas
         ];
-        return view('page-types/index', $data);
+
+        return view('articles/index', $data);
+    }
+
+    public function getDataCategories($id)
+    {
+        $relations = $this->articleCategoryRelationModel->where('article_id', $id)->asObject()->findAll();
+        $ids = [];
+        foreach ($relations as $value) {
+            $ids[] = $this->articleCategoriesModel->where('id', $value->category_id)->asObject()->first();
+        }
+        return $ids;
     }
 
     public function create()
@@ -33,53 +64,87 @@ class ArticleController extends BaseController
         $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
             'uri'           => $uri,
-            'title'         => 'Pengaturan Halaman',
-            'validation'    => \config\Services::validation()
+            'title'         => 'Article / Berita',
+            'validation'    => \config\Services::validation(),
+            'categories'    =>  $this->articleCategoriesModel->asObject()->findAll(),
         ];
-        return view('page-types/create', $data);
+        return view('articles/create', $data);
     }
 
     public function delete($id)
     {
-        $this->pageTypeModel->where('id', $id)->delete();
-        return redirect()->to('/page-types');
+        $this->articleModel->where('id', $id)->delete();
+        return redirect()->to('/articles');
     }
 
     public function store()
     {
         if (!$this->validate([
-            'name'   => 'required',
+            'title'   => 'required',
+            'categories' => 'required',
+            'content' => 'required',
         ])) {
             $validation = \config\Services::validation();
-            return redirect()->to('/page-types/create')->withInput()->with('validation', $validation);
+            return redirect()->to('/articles/create')->withInput()->with('validation', $validation);
         }
-        $name = $this->request->getVar('name');
-        $slug = $this->request->getVar('slug');
+        $title      = $this->request->getVar('title');
+        $images     = $this->request->getVar('images');
+        $categories = $this->request->getVar('categories');
+        $slug       = $this->request->getVar('slug');
+        $status     = $this->request->getVar('status');
+        $content    = $this->request->getVar('content');
+
         if (empty($slug)) {
-            $slug = preg_replace('/\s+/', '-', trim(strtolower($name)));
+            $slug = preg_replace('/\s+/', '-', trim(strtolower($title)));
         }
+        $this->articleModel->transBegin();
         $data = [
-            'name'   => $name,
-            'slug'   => $slug,
+            'title'     => $title,
+            'slug'      => $slug,
+            'content'   => $content,
+            'status'    => $status,
+            'created_by' => session()->get('id'),
+            'updated_by' => session()->get('id'),
         ];
-        $this->pageTypeModel->insert($data);
-        return redirect()->to('/page-types')->with('success', "Data berhasil ditambahkan");
+        $id = $this->articleModel->insert($data);
+
+        foreach ($categories as $value) {
+            $data = [
+                'article_id' => $id,
+                'category_id' => $value,
+            ];
+            $this->articleCategoryRelationModel->insert($data);
+        }
+        if ($this->articleModel->transStatus() === false) {
+            $this->articleModel->transRollback();
+        } else {
+            $this->articleModel->transCommit();
+        }
+        return redirect()->to('/articles')->with('success', "Data berhasil ditambahkan");
     }
 
 
     public function edit($id)
     {
         session();
-        $pageTypes = $this->pageTypeModel->where('id', $id)->asObject()->first();
+        $articles = $this->articleModel->where('id', $id)->asObject()->first();
+        $relations = $this->articleCategoryRelationModel->where('article_id', $id)->asObject()->findAll();
+        $ids = [];
+        foreach ($relations as $key => $value) {
+            $ids[] = $value->category_id;
+        }
         $uri = current_url(true);
         $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
             'uri'           => $uri,
-            'pageTypes'     => $pageTypes,
-            'title'         => 'Pengaturan Halaman',
-            'validation'    => \config\Services::validation()
+            'articles'     => $articles,
+            'title'         => 'Article / Berita',
+            'validation'    => \config\Services::validation(),
+            'categories'    =>  $this->articleCategoriesModel->asObject()->findAll(),
+            'categories_relation'    =>  $ids,
         ];
-        return view('page-types/edit', $data);
+
+        return view('articles/edit', $data);
     }
 
 
@@ -87,22 +152,46 @@ class ArticleController extends BaseController
     {
         $id = $this->request->getVar('id');
         if (!$this->validate([
-            'name'   => 'required',
+            'title'   => 'required',
+            'categories' => 'required',
+            'content' => 'required',
         ])) {
             $validation = \config\Services::validation();
-            return redirect()->to('/page-types/' . $id . '/edit')->withInput()->with('validation', $validation);
+            return redirect()->to('/articles/' . $id . '/edit')->withInput()->with('validation', $validation);
         }
 
-        $name = $this->request->getVar('name');
-        $slug = $this->request->getVar('slug');
+        $title      = $this->request->getVar('title');
+        $images     = $this->request->getVar('images');
+        $categories = $this->request->getVar('categories');
+        $slug       = $this->request->getVar('slug');
+        $status     = $this->request->getVar('status');
+        $content    = $this->request->getVar('content');
         if (empty($slug)) {
-            $slug = preg_replace('/\s+/', '-', trim(strtolower($name)));
+            $slug = preg_replace('/\s+/', '-', trim(strtolower($title)));
         }
+        $this->articleModel->transBegin();
         $data = [
-            'name'   => $name,
-            'slug'   => $slug,
+            'title'     => $title,
+            'slug'      => $slug,
+            'content'   => $content,
+            'status'    => $status,
+            'updated_by' => session()->get('id'),
         ];
-        $this->pageTypeModel->updateData($id, $data);
-        return redirect()->to('/page-types')->with('success', "Data berhasil dirubah");
+        $this->articleModel->updateData($id, $data);
+        $this->articleCategoryRelationModel->where('article_id', $id)->delete();
+        foreach ($categories as $value) {
+            $data = [
+                'article_id' => $id,
+                'category_id' => $value,
+            ];
+            $this->articleCategoryRelationModel->insert($data);
+        }
+        if ($this->articleModel->transStatus() === false) {
+            $this->articleModel->transRollback();
+        } else {
+            $this->articleModel->transCommit();
+        }
+        
+        return redirect()->to('/articles')->with('success', "Data berhasil dirubah");
     }
 }
