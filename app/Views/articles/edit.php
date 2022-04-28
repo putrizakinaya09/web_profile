@@ -10,13 +10,20 @@
                 <h4 class="card-title">Form Input</h4>
             </div>
             <div class="card-body">
-            <form action="<?= base_url() ?>/articles/update" method="post">
+            <form enctype="multipart/form-data" action="<?= base_url() ?>/articles/update" method="post">
                     <div class="form-group">
                         <label form="title">Title</label>
                         <input type="hidden" name="id" id="id" value="<?= $articles->id ?? '' ?>">
                         <input type="text" name="title" id="title" class="form-control <?= ($validation->hasError('title')) ? 'is-invalid' : '' ?>" placeholder="input title" value="<?= $articles->title ?? '' ?>">
                         <div class="invalid-feedback">
                             <?= $validation->getError('title') ?>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label form="images">Image Thumbnail</label>
+                        <input accept="image/png, image/gif, image/jpeg" type="file" name="images" id="images" class="form-control <?= ($validation->hasError('images')) ? 'is-invalid' : '' ?>" placeholder="input images">
+                        <div class="invalid-feedback">
+                            <?= $validation->getError('images') ?>
                         </div>
                     </div>
                     <div class="form-group">

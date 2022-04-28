@@ -17,6 +17,7 @@
                             <th>No</th>
                             <th>Categories</th>
                             <th>Name</th>
+                            <th>Thumbnail</th>
                             <th>Slug</th>
                             <th>Option</th>
                         </tr>
@@ -33,6 +34,7 @@
                                     <?php endif  ?>
                                 </td>
                                 <td><?= $article['title'] ?></td>
+                                <td><?= !empty($article['images']) ? '<img style="max-width:250px" class="img-thumbnail" src="/assets/images/'.$article["images"].'">' : '' ?></td>
                                 <td><?= $article['slug'] ?></td>
                                 <td>
                                     <a href="<?= base_url('/articles/' . $article['id']. '/edit') ?>" class="btn btn-info btn-sm">Edit</a>

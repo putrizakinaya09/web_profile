@@ -8,3 +8,5 @@ writable/session
 writable/logs
 
 .DS_Store
+
+public/assets/images/*

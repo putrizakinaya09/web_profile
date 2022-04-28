@@ -33,6 +33,7 @@ class ArticleController extends BaseController
             $datas[$key]['id'] = $value->id;
             $datas[$key]['title'] = $value->title;
             $datas[$key]['content'] = $value->content;
+            $datas[$key]['images'] = $value->images;
             $datas[$key]['status'] = $value->status == 1 ? 'Publish' : 'Draft';
             $datas[$key]['slug'] = $value->slug;
             $datas[$key]['categories'] = $this->getDataCategories($value->id);
@@ -88,11 +89,21 @@ class ArticleController extends BaseController
             return redirect()->to('/articles/create')->withInput()->with('validation', $validation);
         }
         $title      = $this->request->getVar('title');
-        $images     = $this->request->getVar('images');
         $categories = $this->request->getVar('categories');
         $slug       = $this->request->getVar('slug');
         $status     = $this->request->getVar('status');
         $content    = $this->request->getVar('content');
+
+        $images = $this->request->getFile('images');
+        $imageName = null;
+        if ($images->isValid()) {
+            $upload = $images->move(FCPATH . 'assets/images');
+
+            if ($upload) {
+                $imageName = $images->getName();
+            }
+        }
+
 
         if (empty($slug)) {
             $slug = preg_replace('/\s+/', '-', trim(strtolower($title)));
@@ -101,6 +112,7 @@ class ArticleController extends BaseController
         $data = [
             'title'     => $title,
             'slug'      => $slug,
+            'images'    => $imageName,
             'content'   => $content,
             'status'    => $status,
             'created_by' => session()->get('id'),
@@ -137,7 +149,7 @@ class ArticleController extends BaseController
         $uri = new \CodeIgniter\HTTP\URI($uri);
         $data = [
             'uri'           => $uri,
-            'articles'     => $articles,
+            'articles'      => $articles,
             'title'         => 'Article / Berita',
             'validation'    => \config\Services::validation(),
             'categories'    =>  $this->articleCategoriesModel->asObject()->findAll(),
@@ -161,11 +173,21 @@ class ArticleController extends BaseController
         }
 
         $title      = $this->request->getVar('title');
-        $images     = $this->request->getVar('images');
         $categories = $this->request->getVar('categories');
         $slug       = $this->request->getVar('slug');
         $status     = $this->request->getVar('status');
         $content    = $this->request->getVar('content');
+
+        $images = $this->request->getFile('images');
+        $imageName = null;
+        if ($images->isValid()) {
+            $upload = $images->move(FCPATH . 'assets/images');
+
+            if ($upload) {
+                $imageName = $images->getName();
+            }
+        }
+
         if (empty($slug)) {
             $slug = preg_replace('/\s+/', '-', trim(strtolower($title)));
         }
@@ -177,6 +199,12 @@ class ArticleController extends BaseController
             'status'    => $status,
             'updated_by' => session()->get('id'),
         ];
+        $imageData = [
+            'images'    => $imageName,
+        ];
+        if ($imageName) {
+            $data = array_merge($data, $imageData);
+        }
         $this->articleModel->updateData($id, $data);
         $this->articleCategoryRelationModel->where('article_id', $id)->delete();
         foreach ($categories as $value) {
