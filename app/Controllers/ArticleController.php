@@ -35,7 +35,7 @@ class ArticleController extends BaseController
             $datas[$key]['content'] = $value->content;
             $datas[$key]['images'] = $value->images;
             $datas[$key]['status'] = $value->status == 1 ? 'Publish' : 'Draft';
-            $datas[$key]['slug'] = $value->slug;
+            $datas[$key]['slug'] = $value->slug;            
             $datas[$key]['categories'] = $this->getDataCategories($value->id);
         }
 
@@ -219,7 +219,7 @@ class ArticleController extends BaseController
         } else {
             $this->articleModel->transCommit();
         }
-        
+
         return redirect()->to('/articles')->with('success', "Data berhasil dirubah");
     }
 }
