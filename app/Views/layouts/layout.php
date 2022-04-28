@@ -56,7 +56,7 @@
               <div class="dropdown-menu">
                 <a id="pengumuman" href="<?= base_url() ?>/pengumuman" class="dropdown-item">Pengumuman</a>
                 <a id="berita" href="<?= base_url() ?>/berita" class="dropdown-item">Berita</a>
-                <a id="gallery" href="<?= base_url() ?>/gallery" class="dropdown-item">Gallery</a>
+                <a id="galeri-kegiatan" href="<?= base_url() ?>/galeri-kegiatan" class="dropdown-item">Gallery</a>
               </div>
             </li>
             <li class="nav-item">

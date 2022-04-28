@@ -104,7 +104,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <a id="galeri-kegiatan" class="nav-link" href="<?= base_url() ?>/page/galeri-kegiatan">
                                 <span data-feather="image"></span>
                                 Galeri Kegiatan
                             </a>
