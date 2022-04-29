@@ -46,7 +46,7 @@
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
               <div class="dropdown-menu">
-                <a id="sambutan" href="<?= base_url() ?>/sambutan" class="dropdown-item">Sabutan KA.Prodi</a>
+                <a id="sambutan" href="<?= base_url() ?>/sambutan" class="dropdown-item">Sambutan KA.Prodi</a>
                 <a id="visi-misi" href="<?= base_url() ?>/visi-misi" class="dropdown-item">Visi dan Misi</a>
                 <a id="struktur-organisasi" href="<?= base_url() ?>/struktur-organisasi" class="dropdown-item">Struktur Organisasi</a>
               </div>
