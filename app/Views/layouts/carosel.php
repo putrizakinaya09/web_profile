@@ -6,15 +6,12 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns= aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#777" />
-            </svg>
+            <img src="https://bandungkota.bnn.go.id/konten/unggahan/2020/10/WhatsApp-Image-2019-10-05-at-5.08.21-PM2-1024x768-1.jpeg" alt="kunjungan" >
 
             <div class="container">
                 <div class="carousel-caption text-start">
-                    <h1>Example headline.</h1>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    <h1>Kunjungan BNN.</h1>
+                    <p>Kunjungi Kampus STMIK Mardira, BNN Kota Bandung berikan Informasi mengenai Narkoba</p>
                 </div>
             </div>
         </div>
@@ -25,20 +22,16 @@
                 <div class="carousel-caption">
                     <h1>STMIK MARDIRA BANDUNG.</h1>
                     <p>Gelar Wisuda XX Program Diploma dan Sarjana.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#777" />
-            </svg>
+            <img src="https://www.beritainspiratif.com/assets/uploads/2019/02/IMG-20190202-WA0016_640x426.jpg" alt="wusuda" >
 
             <div class="container">
                 <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    <h1>STMIK MARDIRA BANDUNG.</h1>
+                    <p>STMIK Mardira Bandung Wisuda 109 Mahasiswa dari Berbagai Jurusan.</p>
                 </div>
             </div>
         </div>
