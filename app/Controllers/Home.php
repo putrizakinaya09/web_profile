@@ -27,6 +27,9 @@ class Home extends BaseController
             'pageType'  => $pageType,
             'page'  => $page ?? [],
         ];
+        if (!empty($slug)) {
+            return view('pages', $data);
+        }
         return view('home', $data);
     }
 }
